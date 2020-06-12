@@ -20,4 +20,4 @@ with open(report_path, mode='wb') as f:
     # 使用Runner运行测试套件生成测试报告
     runner.run(suite)
     print("构建后")
-    print("-"*50)
+    print("--"*50)
